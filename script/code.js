@@ -209,7 +209,7 @@ function ex(...arr) {
    // console.log(arr)
 }
 
-ex(2 , 'John', 9, 6, 'Arnold', 4 , 2 , 'Richie', 'Alex', 'Kino')
+/* ex(2 , 'John', 9, 6, 'Arnold', 4 , 2 , 'Richie', 'Alex', 'Kino')
 
 
 function ex2(...arr1){
@@ -225,4 +225,11 @@ let data = [9,6,'64','pop','op',4]
 data.forEach((value) => {
 
     console.log(value.startsWith(value))
+}) */
+
+
+let data = [9, 'Peter', 'sipho', 3, 4, 11, 'Sarah', 'Sisi']
+data.forEach((people) => {
+    if ((typeof people == 'string') && (people.toLowerCase()[0] == 's'))
+        console.log(people)
 })
